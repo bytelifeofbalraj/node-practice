@@ -1,0 +1,4 @@
+Line one from practice.
+Line two from practice.
+Line three.utf8
+This line was added by appendFile.
