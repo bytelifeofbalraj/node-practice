@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 1.5rem;
+        color: #242424;
+        background: #f7f5f0;
+        font-family: system-ui, sans-serif;
+        text-align: center;
+      }
+      main {
+        max-width: 28rem;
+      }
+      .code {
+        margin: 0;
+        color: #b77954;
+        font-size: clamp(5rem, 20vw, 8rem);
+        font-weight: 750;
+        letter-spacing: -0.08em;
+        line-height: 1;
+      }
+      h1 {
+        margin: 1rem 0 0.5rem;
+        font-size: 1.6rem;
+      }
+      p {
+        margin: 0 0 1.5rem;
+        color: #68645f;
+        line-height: 1.6;
+      }
+      a {
+        display: inline-block;
+        padding: 0.75rem 1.1rem;
+        border-radius: 999px;
+        color: white;
+        background: #242424;
+        text-decoration: none;
+      }
+      a:hover {
+        background: #b77954;
+      }
+      a:focus-visible {
+        outline: 3px solid #b77954;
+        outline-offset: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="code" aria-hidden="true">404</p>
+      <h1>Page not found</h1>
+      <p>
+        Sorry, we couldn't find the page you're looking for. It may have moved
+        or no longer exists.
+      </p>
+      <a href="/">Back to home</a>
+    </main>
+  </body>
+</html>
